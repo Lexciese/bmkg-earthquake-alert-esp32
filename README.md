@@ -41,5 +41,5 @@ This project integrates BMKG's real-time earthquake data with an ESP32 to notify
 8. Done.
 
 Note:
-- You can customize anything you want, like adding additional alert method with buzzer.
-- Because this system requests API every 2 second interval, if turned on 24 hours, it will consumes ~12 megabyte per day. You can change the interval in the code.
+- By default, the alert notification methods is only by blinking the built-in LED. You can customize anything you want, like adding additional alert method with buzzer.
+- Because this program requests API every 2 second interval, if turned on 24 hours, it will consumes ~12 megabyte per day. You can change the interval in the code.
